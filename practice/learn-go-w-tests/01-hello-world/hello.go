@@ -6,11 +6,11 @@ import (
 
 const (
 	spanish = "Spanish"
-	french = "French"
+	french  = "French"
 
 	englishHelloPrefix = "Hello, "
 	spanishHelloPrefix = "Hola, "
-	frenchHelloPrefix = "Bonjour, "
+	frenchHelloPrefix  = "Bonjour, "
 )
 
 func Hello(name string, language string) string {
